@@ -1,0 +1,35 @@
+{
+    "usuarios": [
+        {
+            "id": 1,
+            "nome": "admin",
+            "email": "admin@naesquina.com",
+            "senha": "senha123",
+            "isStore": true,
+            "favoritos": [
+                {
+                    "lojaid": 1
+                }
+            ]
+        }
+    ],
+    "lojas": [
+        {
+            "id": 1,
+            "nome": "Mercado Central",
+            "endereco": "Rua das Flores, 123",
+            "proprietarioId": 1,
+            "Telefone": "99 999999999",
+            "email": "loja@loja.com.br",
+            "produtos": [
+                {
+                    "id": 1,
+                    "nome": "produto",
+                    "imagem": "https://placehold.co/600x400/EEE/31343C",
+                    "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, erat ut mattis dictum, diam est facilisis neque, vel congue tellus nisl nec arcu. Aenean magna orci, dignissim id enim quis, accumsan malesuada diam. Pellentesque sem mi, tristique eu volutpat quis, ultricies nec nisi. Proin quis fermentum ligula, vel lobortis ex. Duis eget diam bibendum mi tincidunt porta. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse et ullamcorper sapien. Donec semper ex sed fringilla condimentum."        
+                    }
+            ]
+        }
+    ]
+    
+}
