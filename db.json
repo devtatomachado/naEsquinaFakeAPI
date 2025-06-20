@@ -16,17 +16,58 @@
     "lojas": [
         {
             "id": 1,
+            "UsuarioId": 1,
             "nome": "Mercado Central",
             "endereco": "Rua das Flores, 123",
             "proprietarioId": 1,
-            "Telefone": "99 999999999",
+            "logo": "https://img.freepik.com/vetores-premium/conceito-realista-de-logotipo-de-negocio-corporativo-de-tipo-diferente_1286368-70511.jpg",
+            "telefone": "99 999999999",
             "email": "loja@loja.com.br",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, erat ut mattis dictum, diam est facilisis neque, vel congue tellus nisl nec arcu. Aenean magna orci, dignissim id enim quis, accumsan malesuada diam. ",
             "produtos": [
                 {
                     "id": 1,
                     "nome": "produto",
                     "imagem": "https://placehold.co/600x400/EEE/31343C",
-                    "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, erat ut mattis dictum, diam est facilisis neque, vel congue tellus nisl nec arcu. Aenean magna orci, dignissim id enim quis, accumsan malesuada diam. Pellentesque sem mi, tristique eu volutpat quis, ultricies nec nisi. Proin quis fermentum ligula, vel lobortis ex. Duis eget diam bibendum mi tincidunt porta. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse et ullamcorper sapien. Donec semper ex sed fringilla condimentum."        
+                    "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, erat ut mattis dictum, diam est facilisis neque, vel congue tellus nisl nec arcu. Aenean magna orci, dignissim id enim quis, accumsan malesuada diam.  Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse et ullamcorper sapien. Donec semper ex sed fringilla condimentum."        
+                    }
+            ]
+        },
+        {
+            "id": 2,
+            "UsuarioId": 2,
+            "nome": "Mercado Lateral",
+            "endereco": "Rua das filvas, 123",
+            "proprietarioId": 1,
+            "logo": "https://img.freepik.com/vetores-premium/conceito-realista-de-logotipo-de-negocio-corporativo-de-tipo-diferente_1286368-70511.jpg",
+            "telefone": "99 999999999",
+            "email": "loja@loja.com.br",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, erat ut mattis dictum, diam est facilisis neque, vel congue tellus nisl nec arcu. Aenean magna orci, dignissim id enim quis, accumsan malesuada diam. ",
+            "produtos": [
+                {
+                    "id": 1,
+                    "nome": "produto",
+                    "imagem": "https://placehold.co/600x400/EEE/31343C",
+                    "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, erat ut mattis dictum, diam est facilisis neque, vel congue tellus nisl nec arcu. Aenean magna orci, dignissim id enim quis, accumsan malesuada diam.  Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse et ullamcorper sapien. Donec semper ex sed fringilla condimentum."        
+                    }
+            ]
+        },
+        {
+            "id": 2,
+            "UsuarioId": 2,
+            "nome": "Mercado Lateral",
+            "endereco": "Rua das filvas, 123",
+            "proprietarioId": 1,
+            "logo": "https://img.freepik.com/vetores-premium/conceito-realista-de-logotipo-de-negocio-corporativo-de-tipo-diferente_1286368-70511.jpg",
+            "telefone": "99 999999999",
+            "email": "loja@loja.com.br",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, erat ut mattis dictum, diam est facilisis neque, vel congue tellus nisl nec arcu. Aenean magna orci, dignissim id enim quis, accumsan malesuada diam. ",
+            "produtos": [
+                {
+                    "id": 1,
+                    "nome": "produto",
+                    "imagem": "https://placehold.co/600x400/EEE/31343C",
+                    "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, erat ut mattis dictum, diam est facilisis neque, vel congue tellus nisl nec arcu. Aenean magna orci, dignissim id enim quis, accumsan malesuada diam.  Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse et ullamcorper sapien. Donec semper ex sed fringilla condimentum."        
                     }
             ]
         }
