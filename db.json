@@ -29,38 +29,19 @@
                "id": 1,
                "nome": "produto",
                "imagem": "https://placehold.co/600x600/",
-               "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, erat ut mattis dictum, diam est facilisis neque, vel congue tellus nisl nec arcu. Aenean magna orci, dignissim id enim quis, accumsan malesuada diam.  Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse et ullamcorper sapien. Donec semper ex sed fringilla condimentum."
+               "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, erat ut mattis dictum, diam est facilisis neque, vel congue tellus nisl nec arcu. Aenean magna orci, dignissim id enim quis, accumsan malesuada diam.  Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse et ullamcorper sapien. Donec semper ex sed fringilla condimentum.",
+               "valor": "40,00",
+               "disponibilidade": "Em estoque"
             },
             {
-               "id": 2,
+               "id": 1,
                "nome": "produto",
                "imagem": "https://placehold.co/600x600/",
-               "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, erat ut mattis dictum, diam est facilisis neque, vel congue tellus nisl nec arcu. Aenean magna orci, dignissim id enim quis, accumsan malesuada diam.  Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse et ullamcorper sapien. Donec semper ex sed fringilla condimentum."
-            },
-            {
-               "id": 3,
-               "nome": "produto",
-               "imagem": "https://placehold.co/600x600/",
-               "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, erat ut mattis dictum, diam est facilisis neque, vel congue tellus nisl nec arcu. Aenean magna orci, dignissim id enim quis, accumsan malesuada diam.  Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse et ullamcorper sapien. Donec semper ex sed fringilla condimentum."
-            },
-            {
-               "id": 3,
-               "nome": "produto",
-               "imagem": "https://placehold.co/600x600/",
-               "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, erat ut mattis dictum, diam est facilisis neque, vel congue tellus nisl nec arcu. Aenean magna orci, dignissim id enim quis, accumsan malesuada diam.  Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse et ullamcorper sapien. Donec semper ex sed fringilla condimentum."
-            },
-            {
-               "id": 3,
-               "nome": "produto",
-               "imagem": "https://placehold.co/600x600/",
-               "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, erat ut mattis dictum, diam est facilisis neque, vel congue tellus nisl nec arcu. Aenean magna orci, dignissim id enim quis, accumsan malesuada diam.  Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse et ullamcorper sapien. Donec semper ex sed fringilla condimentum."
-            },
-            {
-               "id": 3,
-               "nome": "produto",
-               "imagem": "https://placehold.co/600x600/",
-               "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, erat ut mattis dictum, diam est facilisis neque, vel congue tellus nisl nec arcu. Aenean magna orci, dignissim id enim quis, accumsan malesuada diam.  Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse et ullamcorper sapien. Donec semper ex sed fringilla condimentum."
+               "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, erat ut mattis dictum, diam est facilisis neque, vel congue tellus nisl nec arcu. Aenean magna orci, dignissim id enim quis, accumsan malesuada diam.  Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse et ullamcorper sapien. Donec semper ex sed fringilla condimentum.",
+               "valor": "40,00",
+               "disponibilidade": "Encomenda"
             }
+            
          ]
       }
    ]
