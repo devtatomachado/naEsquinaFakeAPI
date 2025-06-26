@@ -19,9 +19,8 @@
       "UsuarioId": 1,
       "nome": "Mercado Central",
       "endereco": "Rua das Flores, 123",
-      "proprietarioId": 1,
       "logo": "https://img.freepik.com/vetores-premium/conceito-realista-de-logotipo-de-negocio-corporativo-de-tipo-diferente_1286368-70511.jpg",
-      "telefone": "53999771729",
+      "telefone": "53999771720",
       "email": "loja@loja.com.br",
       "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, erat ut mattis dictum, diam est facilisis neque, vel congue tellus nisl nec arcu. Aenean magna orci, dignissim id enim quis, accumsan malesuada diam. ",
       "produtos": [
@@ -41,7 +40,9 @@
           "valor": "40,00",
           "disponibilidade": "Encomenda"
         }
-      ]
+      ],
+      "nomeLoja": "",
+      "UsuarioID": "1"
     }
   ]
 }
