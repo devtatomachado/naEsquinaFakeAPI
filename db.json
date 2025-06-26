@@ -2,7 +2,7 @@
   "usuarios": [
     {
       "id": "1",
-      "nome": "admin",
+      "lojaId": "1",
       "email": "admin@naesquina.com",
       "senha": "senha123",
       "isStore": true,
@@ -11,12 +11,21 @@
           "lojaid": 1
         }
       ]
+    },
+    {
+      "id": "15fa",
+      "nome": "Mercado 2",
+      "endereco": "Rua 2",
+      "documento": "82850500097",
+      "email": "email@naesquina.com",
+      "senha": "senha123",
+      "isStore": true
     }
   ],
   "lojas": [
     {
       "id": "1",
-      "UsuarioId": 1,
+      "UsuarioId": "1",
       "nome": "Mercado Central",
       "endereco": "Rua das Flores, 123",
       "logo": "https://img.freepik.com/vetores-premium/conceito-realista-de-logotipo-de-negocio-corporativo-de-tipo-diferente_1286368-70511.jpg",
@@ -40,9 +49,7 @@
           "valor": "40,00",
           "disponibilidade": "Encomenda"
         }
-      ],
-      "nomeLoja": "",
-      "UsuarioID": "1"
+      ]
     }
   ]
 }
