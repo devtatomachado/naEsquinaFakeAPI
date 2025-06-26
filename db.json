@@ -1,48 +1,47 @@
 {
-   "usuarios": [
-      {
-         "id": 1,
-         "nome": "admin",
-         "email": "admin@naesquina.com",
-         "senha": "senha123",
-         "isStore": true,
-         "favoritos": [
-            {
-               "lojaid": 1
-            }
-         ]
-      }
-   ],
-   "lojas": [
-      {
-         "id": 1,
-         "UsuarioId": 1,
-         "nome": "Mercado Central",
-         "endereco": "Rua das Flores, 123",
-         "proprietarioId": 1,
-         "logo": "https://img.freepik.com/vetores-premium/conceito-realista-de-logotipo-de-negocio-corporativo-de-tipo-diferente_1286368-70511.jpg",
-         "telefone": "53999771729",
-         "email": "loja@loja.com.br",
-         "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, erat ut mattis dictum, diam est facilisis neque, vel congue tellus nisl nec arcu. Aenean magna orci, dignissim id enim quis, accumsan malesuada diam. ",
-         "produtos": [
-            {
-               "id": 1,
-               "nome": "produto",
-               "imagem": "https://placehold.co/600x600/",
-               "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, erat ut mattis dictum, diam est facilisis neque, vel congue tellus nisl nec arcu. Aenean magna orci, dignissim id enim quis, accumsan malesuada diam.  Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse et ullamcorper sapien. Donec semper ex sed fringilla condimentum.",
-               "valor": "40,00",
-               "disponibilidade": "Em estoque"
-            },
-            {
-               "id": 1,
-               "nome": "produto",
-               "imagem": "https://placehold.co/600x600/",
-               "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, erat ut mattis dictum, diam est facilisis neque, vel congue tellus nisl nec arcu. Aenean magna orci, dignissim id enim quis, accumsan malesuada diam.  Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse et ullamcorper sapien. Donec semper ex sed fringilla condimentum.",
-               "valor": "40,00",
-               "disponibilidade": "Encomenda"
-            }
-            
-         ]
-      }
-   ]
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "admin",
+      "email": "admin@naesquina.com",
+      "senha": "senha123",
+      "isStore": true,
+      "favoritos": [
+        {
+          "lojaid": 1
+        }
+      ]
+    }
+  ],
+  "lojas": [
+    {
+      "id": "1",
+      "UsuarioId": 1,
+      "nome": "Mercado Central",
+      "endereco": "Rua das Flores, 123",
+      "proprietarioId": 1,
+      "logo": "https://img.freepik.com/vetores-premium/conceito-realista-de-logotipo-de-negocio-corporativo-de-tipo-diferente_1286368-70511.jpg",
+      "telefone": "53999771729",
+      "email": "loja@loja.com.br",
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, erat ut mattis dictum, diam est facilisis neque, vel congue tellus nisl nec arcu. Aenean magna orci, dignissim id enim quis, accumsan malesuada diam. ",
+      "produtos": [
+        {
+          "id": 1,
+          "nome": "produto",
+          "imagem": "https://placehold.co/600x600/",
+          "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, erat ut mattis dictum, diam est facilisis neque, vel congue tellus nisl nec arcu. Aenean magna orci, dignissim id enim quis, accumsan malesuada diam.  Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse et ullamcorper sapien. Donec semper ex sed fringilla condimentum.",
+          "valor": "40,00",
+          "disponibilidade": "Em estoque"
+        },
+        {
+          "id": 1,
+          "nome": "produto",
+          "imagem": "https://placehold.co/600x600/",
+          "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, erat ut mattis dictum, diam est facilisis neque, vel congue tellus nisl nec arcu. Aenean magna orci, dignissim id enim quis, accumsan malesuada diam.  Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse et ullamcorper sapien. Donec semper ex sed fringilla condimentum.",
+          "valor": "40,00",
+          "disponibilidade": "Encomenda"
+        }
+      ]
+    }
+  ]
 }
