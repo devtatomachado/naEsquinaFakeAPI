@@ -14,12 +14,22 @@
     },
     {
       "id": "15fa",
+      "lojaId": "2",
       "nome": "Mercado 2",
       "endereco": "Rua 2",
       "documento": "82850500097",
       "email": "email@naesquina.com",
       "senha": "senha123",
       "isStore": true
+    },
+    {
+      "id": "c5a0",
+      "nome": "",
+      "endereco": "",
+      "documento": "",
+      "email": "email@email.com",
+      "senha": "1234senha",
+      "isStore": false
     }
   ],
   "lojas": [
@@ -38,16 +48,28 @@
           "nome": "produto",
           "imagem": "https://placehold.co/600x600/",
           "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, erat ut mattis dictum, diam est facilisis neque, vel congue tellus nisl nec arcu. Aenean magna orci, dignissim id enim quis, accumsan malesuada diam.  Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse et ullamcorper sapien. Donec semper ex sed fringilla condimentum.",
-          "valor": "40,00",
+          "valor": "40",
           "disponibilidade": "Em estoque"
-        },
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "UsuarioId": "2",
+      "nome": "Mercado Central",
+      "endereco": "Rua das Flores, 123",
+      "logo": "https://img.freepik.com/vetores-premium/conceito-realista-de-logotipo-de-negocio-corporativo-de-tipo-diferente_1286368-70511.jpg",
+      "telefone": "53999771720",
+      "email": "loja@loja.com.br",
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, erat ut mattis dictum, diam est facilisis neque, vel congue tellus nisl nec arcu. Aenean magna orci, dignissim id enim quis, accumsan malesuada diam. ",
+      "produtos": [
         {
           "id": 1,
           "nome": "produto",
           "imagem": "https://placehold.co/600x600/",
           "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, erat ut mattis dictum, diam est facilisis neque, vel congue tellus nisl nec arcu. Aenean magna orci, dignissim id enim quis, accumsan malesuada diam.  Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse et ullamcorper sapien. Donec semper ex sed fringilla condimentum.",
-          "valor": "40,00",
-          "disponibilidade": "Encomenda"
+          "valor": "40",
+          "disponibilidade": "Em estoque"
         }
       ]
     }
