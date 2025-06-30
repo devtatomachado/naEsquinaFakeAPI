@@ -1,73 +1,208 @@
 {
   "usuarios": [
     {
-      "id": "1",
-      "lojaId": "1",
-      "email": "admin@naesquina.com",
+      "id": "a1b2",
+      "nome": "João Artesão",
+      "endereco": "Rua das Flores, 123",
+      "documento": "11122233344",
+      "email": "joao.artesao@naesquina.com",
       "senha": "senha123",
       "isStore": true,
       "favoritos": [
         {
-          "lojaid": 1
+          "lojaid": "g7h8"
         }
-      ]
+      ],
+      "lojaId": "c3d4"
     },
     {
-      "id": "2",
-      "lojaId": null,
-      "email": "user@naesquina.com",
+      "id": "e5f6",
+      "nome": "Maria Doceira",
+      "endereco": "Avenida Principal, 456",
+      "documento": "55566677788",
+      "email": "maria.doceira@naesquina.com",
+      "senha": "senha123",
+      "isStore": true,
+      "favoritos": [],
+      "lojaId": "g7h8"
+    },
+    {
+      "id": "i9j0",
+      "nome": "Pedro Marceneiro",
+      "endereco": "Travessa dos Pinheiros, 789",
+      "documento": "99900011122",
+      "email": "pedro.marceneiro@naesquina.com",
+      "senha": "senha123",
+      "isStore": true,
+      "favoritos": [],
+      "lojaId": "k1l2"
+    },
+    {
+      "id": "m3n4",
+      "nome": "Ana Costureira",
+      "endereco": "Praça da Matriz, 101",
+      "documento": "33344455566",
+      "email": "ana.costureira@naesquina.com",
+      "senha": "senha123",
+      "isStore": true,
+      "favoritos": [],
+      "lojaId": "o5p6"
+    },
+    {
+      "id": "056b",
+      "nome": "Tácio",
+      "endereco": "",
+      "documento": "",
+      "email": "tato@naesquina.com",
       "senha": "senha123",
       "isStore": false,
       "favoritos": [
         {
-          "lojaid": 1
-        },
-        {
-          "lojaid": "2"
+          "lojaid": "c3d4"
         }
       ]
     }
   ],
   "lojas": [
     {
-      "id": "1",
-      "UsuarioId": "1",
-      "nome": "Mercado Central",
-      "endereco": "Rua das Flores, 123",
-      "logo": "https://img.freepik.com/vetores-premium/conceito-realista-de-logotipo-de-negocio-corporativo-de-tipo-diferente_1286368-70511.jpg",
-      "telefone": "53999771720",
-      "email": "loja@loja.com.br",
-      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, erat ut mattis dictum, diam est facilisis neque, vel congue tellus nisl nec arcu. Aenean magna orci, dignissim id enim quis, accumsan malesuada diam. ",
+      "id": "c3d4",
+      "nomeLoja": "Arte em Madeira do João",
+      "UsuarioId": "a1b2",
+      "logo": "https://img.freepik.com/vetores-premium/conceito-realista-de-logotipo-de-negocio-corporativo-de-tipo-diferente_1286368-70511.jpg?semt=ais_hybrid&w=740",
+      "bio": "Móveis e objetos de decoração em madeira feitos à mão com paixão e precisão. Cada peça é única e carrega a essência da arte da marcenaria tradicional.",
       "produtos": [
         {
-          "id": 1751074264433,
-          "nome": "Croche",
-          "imagem": "https://mediaim.expedia.com/destination/1/6aee8d0499ea0234b297f320df1dfc44.jpg",
-          "descricao": "Crochê é uma técnica artesanal de tecelagem que usa uma agulha de crochê para criar laços em fios, formando um tecido com diversos padrões. É uma atividade versátil, permitindo a criação de peças como roupas, acessórios e itens de decoração. ",
-          "valor": "54",
-          "disponibilidade": "encomenda"
+          "id": 1751237561548,
+          "nome": "Banco Rústico",
+          "imagem": "https://images.tcdn.com.br/img/img_prod/889102/banco_sem_encosto_acabamento_rustico_area_externa_1507_1_59f6544d25e3faac75af8eecaaae4044.jpg",
+          "descricao": "Banco de madeira maciça, perfeito para áreas externas e varandas.",
+          "valor": "120",
+          "disponibilidade": "Em estoque"
+        },
+        {
+          "id": 1751237561549,
+          "nome": "Prateleira Decorativa",
+          "imagem": "https://madalishop.cdn.magazord.com.br/img/2021/02/produto/865/frente-prateleira-decorativa-redonda-12501.jpg?ims=800x800",
+          "descricao": "Prateleira de parede feita à mão, ideal para livros e objetos de decoração.",
+          "valor": "45",
+          "disponibilidade": "Em estoque"
         }
-      ]
+      ],
+      "endereco": "Rua das Flores, 123 - Pelotas",
+      "telefone": "53988776655",
+      "email": "joao.artesao@email.com",
+      "UsuarioID": "a1b2"
     },
     {
-      "id": "2",
-      "UsuarioId": "3",
-      "nome": "Mercado Lateral",
-      "endereco": "Rua das Flores, 123",
-      "logo": "https://img.freepik.com/vetores-premium/conceito-realista-de-logotipo-de-negocio-corporativo-de-tipo-diferente_1286368-70511.jpg",
-      "telefone": "53999771720",
-      "email": "loja@loja.com.br",
-      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, erat ut mattis dictum, diam est facilisis neque, vel congue tellus nisl nec arcu. Aenean magna orci, dignissim id enim quis, accumsan malesuada diam. ",
+      "id": "g7h8",
+      "nomeLoja": "Doces da Maria",
+      "UsuarioId": "e5f6",
+      "logo": "https://thumbs.dreamstime.com/b/galeria-de-arte-e-artesanato-logotipo-isolado-eps-ilustra%C3%A7%C3%A3o-vetor-206916262.jpg",
+      "bio": "Doces artesanais que adoçam a vida! Bolos, brigadeiros, tortas e muito mais, feitos com ingredientes frescos e muito carinho para qualquer ocasião.",
       "produtos": [
         {
-          "id": 1751074264433,
-          "nome": "Croche",
-          "imagem": "https://mediaim.expedia.com/destination/1/6aee8d0499ea0234b297f320df1dfc44.jpg",
-          "descricao": "Crochê é uma técnica artesanal de tecelagem que usa uma agulha de crochê para criar laços em fios, formando um tecido com diversos padrões. É uma atividade versátil, permitindo a criação de peças como roupas, acessórios e itens de decoração. ",
-          "valor": "54",
-          "disponibilidade": "encomenda"
+          "id": 1751237561550,
+          "nome": "Bolo de Chocolate",
+          "imagem": "https://guiadacozinha.com.br/wp-content/uploads/2009/01/bolo-de-chocolate-simples-768x619.jpg",
+          "descricao": "Bolo de chocolate fofinho com cobertura cremosa.",
+          "valor": "35",
+          "disponibilidade": "Em estoque"
+        },
+        {
+          "id": 1751237561551,
+          "nome": "Brigadeiro Gourmet",
+          "imagem": "https://static.itdg.com.br/images/1200-675/b47ca0ce947bc106f09b8fcbbf2c8a11/274343-original.jpg",
+          "descricao": "Brigadeiro feito com chocolate belga e granulado especial.",
+          "valor": "2.5",
+          "disponibilidade": "Em estoque"
+        },
+        {
+          "id": 1751237561552,
+          "nome": "Torta de Limão",
+          "imagem": "https://www.receitasnestle.com.br/sites/default/files/styles/recipe_detail_desktop_new/public/oembed_thumbnails/ST-EmUyV14Qv159dxB4L4pWYb-d9L7K0jY8e1rKvSk0.jpg?itok=3itAQwTt",
+          "descricao": "Torta de limão com massa crocante e recheio cremoso.",
+          "valor": "40",
+          "disponibilidade": "Em estoque"
         }
-      ]
+      ],
+      "endereco": "Avenida Principal, 456 - Pelotas",
+      "telefone": "53977665544",
+      "email": "maria.doceira@email.com",
+      "UsuarioID": "e5f6"
+    },
+    {
+      "id": "k1l2",
+      "nomeLoja": "Pedro Mobiliário Artesanal",
+      "UsuarioId": "i9j0",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTGRvgpi99qyh3JDmcO9YfBE8XrPgABc9x8w&s",
+      "bio": "Criações em madeira que transformam ambientes. De mesas a cadeiras, cada peça é pensada para durar e trazer funcionalidade com estilo.",
+      "produtos": [
+        {
+          "id": 1751237561553,
+          "nome": "Cadeira de Madeira",
+          "imagem": "https://cdn.awsli.com.br/2500x2500/1804/1804030/produto/316102742/cadeira-rustica-madeira-maci-a-peroba-rosa-aik35j649j.jpg",
+          "descricao": "Cadeira artesanal feita com madeira de reflorestamento.",
+          "valor": "85",
+          "disponibilidade": "Em estoque"
+        },
+        {
+          "id": 1751237561554,
+          "nome": "Mesa de Centro",
+          "imagem": "https://www.artesintonia.com.br/cdn/shop/files/MSY14-mesa-tronco-rustica-madeira-suar-artesanal-entalhada-sala-bali-decoracao-design-3.jpg?v=1748283807",
+          "descricao": "Mesa de centro rústica, ideal para salas de estar.",
+          "valor": "200",
+          "disponibilidade": "Em estoque"
+        },
+        {
+          "id": 1751237561555,
+          "nome": "Porta-chaves Decorativo",
+          "imagem": "https://images.tcdn.com.br/img/img_prod/548063/porta_chaves_artesanal_envelhecido_772_1_20230223202307.jpg",
+          "descricao": "Porta-chaves de parede com detalhes em madeira e ferro.",
+          "valor": "25",
+          "disponibilidade": "Em estoque"
+        }
+      ],
+      "endereco": "Travessa dos Pinheiros, 789 - Pelotas",
+      "telefone": "53966554433",
+      "email": "pedro.marceneiro@email.com",
+      "UsuarioID": "i9j0"
+    },
+    {
+      "id": "o5p6",
+      "nomeLoja": "Ateliê da Ana",
+      "UsuarioId": "m3n4",
+      "logo": "https://img.freepik.com/vetores-gratis/modelo-de-logotipo-de-moda-circular_23-2150157059.jpg?semt=ais_items_boosted&w=740",
+      "bio": "Costura criativa para você e sua casa! Roupas sob medida, acessórios exclusivos e itens de decoração feitos à mão com tecidos de alta qualidade.",
+      "produtos": [
+        {
+          "id": 1751237561556,
+          "nome": "Necessaire de Tecido",
+          "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz5VC9JpRpCCsn_GedQpQ76OkI4zgHx_qhFw&s",
+          "descricao": "Necessaire feita à mão com tecido 100% algodão.",
+          "valor": "30",
+          "disponibilidade": "Em estoque"
+        },
+        {
+          "id": 1751237561557,
+          "nome": "Almofada Bordada",
+          "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTppqexbT1PZ6j1tXj-93JiGxf1qvR_6aBwHA&s",
+          "descricao": "Almofada decorativa com bordado exclusivo.",
+          "valor": "50",
+          "disponibilidade": "Em estoque"
+        },
+        {
+          "id": 1751237561558,
+          "nome": "Eco Bag Personalizada",
+          "imagem": "https://down-br.img.susercontent.com/file/br-11134207-23020-1j826sof7onv95",
+          "descricao": "Sacola ecológica personalizada, resistente e estilosa.",
+          "valor": "25",
+          "disponibilidade": "Em estoque"
+        }
+      ],
+      "endereco": "Praça da Matriz, 101 - Pelotas",
+      "telefone": "53955443322",
+      "email": "ana.costureira@email.com",
+      "UsuarioID": "m3n4"
     }
   ]
 }
