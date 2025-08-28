@@ -51,10 +51,8 @@ http://localhost:3000
 ---
 
 ## 🔗 Endpoints Disponíveis
-- **GET /empreendedores** → Lista todos os empreendedores
-- **GET /produtos** → Lista todos os produtos
-- **POST /empreendedores** → Adiciona um novo empreendedor
-- **POST /produtos** → Adiciona um novo produto
+- /usuarios → Lista de usuários
+- /lojas → Lista de Lojas
 
 ---
 
